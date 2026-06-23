@@ -364,9 +364,6 @@ h3.my-profession {
     text-transform: capitalize;
 }
 .about .about-content .skills .skill-item .progress {
-    background-color: var(--bg-black-50);
-    height: 7px;
-    border-radius: 4px;
     width: 100%;
     position: relative;
 }
@@ -535,6 +532,29 @@ h3.my-profession {
     color: var(--text-black-700);
     text-decoration: underline;
 }
+
+.skill-level {
+    position: absolute;
+    right: 0;
+    top: -35px;
+    display: flex;
+    gap: 8px;
+}
+
+.skill-level .dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: var(--bg-black-50);
+    border: 2px solid #ccc;
+}
+
+.skill-level .dot.active {
+    background-color: #2ecc71;
+    /* verde */
+    border-color: #2ecc71;
+}
+
 /*responsive*/
 @media (max-width:1199px) {
     .aside {

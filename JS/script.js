@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",()=>{var e=new Typed(".typing",{strings:["","SMR technician","Junior DAW Programmer"],typeSpeed:100,BackSpeed:60,loop:!0})});
+document.addEventListener("DOMContentLoaded",()=>{var e=new Typed(".typing",{strings:["","SMR technician","DAW Programmer"],typeSpeed:100,BackSpeed:60,loop:!0})});
